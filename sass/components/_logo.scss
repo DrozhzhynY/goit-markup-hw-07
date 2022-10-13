@@ -1,0 +1,22 @@
+.logo {
+    padding: 24px 0 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: $black-color;
+
+    & span {
+        color: $main-color;
+    }
+}
+
+.link.header__logo {
+    color: $black-color;
+}
+
+.link.footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0;
+    color: $white-color;
+}
